@@ -21,5 +21,8 @@
     "test": "npm run lint && mocha --reporter spec test/*-test.js",
     "fix": "npm run lint -- --fix"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "ipaddr.js": "^2.1.0"
+  }
 }
